@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<title> --|/\|/\|/\|/\|/\|/\|/\|/\|—|/\|/\|/\|/\|/\|/\|/\|/\|—|/\|/\|/\|/\|/\|/\|/\|/\|-- </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('imgs/IMAG1495.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Projects) */
+.bgimg-2 {
+    background-image: url("imgs/IMAG1497.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("imgs/IMAG1498.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <ul class="w3-navbar" id="myNavbar">
+    <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+      <a class="w3-hover-black" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+    </li>
+    <li class="w3-left-align"><a href="#home">HOME</a></li>
+    <li class="w3-hide-small"><a href="#about"><i class="fa fa-user"></i> ABOUT</a></li>
+    <li class="w3-hide-small"><a href="#projects"><i class="fa fa-th"></i> PROJECTS</a></li>
+    <li class="w3-hide-small"><a href="#contact"><i class="fa fa-envelope"></i> CONTACT</a></li>
+    <li class="w3-hide-small w3-right">
+      <a href="#" class="w3-hover-red">
+        <i class="fa fa-search"></i>
+      </a>
+    </li>
+  </ul>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
+    <ul class="w3-navbar w3-left-align w3-white">
+      <li><a href="#about" onclick="toggleFunction()">ABOUT</a></li>
+      <li><a href="#projects" onclick="toggleFunction()">PROJECTS</a></li>
+      <li><a href="#contact" onclick="toggleFunction()">CONTACT</a></li>
+      <li><a href="#">SEARCH</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity"> <span class="w3-hide-small"></span>COMUMLAB</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ME NAME G</h3>
+<div class="w3-text-black">
+<p>Nos últimos anos desenvolvo projetos que propõem a discussão das mídias e tecnologias relacionada ao cenário brasileiro de arte e ativismo. Estas iniciativas sempre visionaram estimular a interação entre as redes, incentivando trabalho colaborativo e coletivo em festivais internacionais como Mídia Tática Brasil, Digitofagia, Arte.mov, além de publicações e laboratórios experimentais. Meu trabalho consistiu em juntar, organizar e produzir propostas concebidas em rede, desde a primeira década de internet no Brasil.</p>
+
+<p>Fui criada numa realidade amazônica e vivi por mais de uma década na cidade grande de São Paulo, e entre essas realidades, investigo a colaboração criativa entre o Norte e Centro-Sul do país. Como imigrante nos Estados Unidos, participei do programa <a href="http://hemisphericinstitute.org/hemi/en/emergenyc" target="blank">EMERGE NYC</a> desenhado para artistas/ativistas/performers, vivendo uma jornada geográfica em experienciar um sistema de vida sustentável em moradas coletivas, e ações criativas entre Norte e Sul do hemisfério.</p>
+
+<p>No retorno ao Brasil, fiz parte do <a href="http://capacete.org/?cat=19" target="blank">programa anual Capacete</a>, além de colaborar com iniciativas públicas e educadoras como <a href="http://www.ctorio.org.br/ctomare/" target="blank">CTO na Maré - Centro do Teatro do Oprimido na Favela da Maré</a>,  <a href="http://culturadigital.br/labceus/" target="blank">Labceus - laboratório de cultura digital</a> realizado através de parceria com o Ministério da Cultura e com a Universidade Federal de Pernambuco (UFPE), e comitê de seleção do projeto <a href="http://www.casacomum.art.br/" target="blank">Casa Comum</a>. Atualmente, desenvolvo pesquisa em teoria crítica de arte no programa de pós-graduação da Universidade Federal Fluminense - UFF/RJ.</p>
+</div>
+
+<br>
+<p>Over the past years I've been working on projects to discuss media and technologies, mixing art and activism initiatives in the Brazilian context. These initiatives have always aimed at interaction with networks encouraging collaborative and collective work in international festivals such as Mídia Tática Brasil, Digitofagia, Arte.mov as well as in publications and experimental laboratories. My work was elaborating ideas managing projects, since the first decade of the Internet in Brazil.</p>
+
+<p>I grew up in the Amazon reality, though I lived for a decade in São Paulo, and much of my work has consisted of collaborations to broaden creative exchange between Brazil's North and Center South.  As an immigrant in the US, I participated in the EMERGENYC - program designed for artists / activists / performers, also inhabiting a geographic journey on sustainable living system at coop-houses, and creative actions between North and South of the Hemisphere.</p>
+
+<p>On my return to Brazil, I participated of the annual program at <a href="http://capacete.org/?cat=19" target="blank">Capacete</a>, in addition to collaborating with public initiatives and educators such as <a href="http://www.ctorio.org.br/ctomare/" target="blank">CTO na Maré</a> - Center of the Theater of the Oppressed in Favela da Maré, <a href="http://culturadigital.br/labceus/" target="blank">Labceus</a> - digital culture laboratory conducted through a partnership with the Ministry of Culture and the Universidade Federal de Pernambuco (UFPE), and the selection committee of the <a href="http://www.casacomum.art.br/" target="blank">Casa Comum</a> project. Currently, I develop research in critical art theory in the post-graduation program of the Universidade Federal Fluminense - UFF / RJ.</p>
+
+
+
+    </div>
+  </div>
+
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+
+    <span class="w3-xxlarge w3-text-light-grey w3-wide"> _|_/\\\///\_|_/\\\///\_|_/\\\///\_|_/\\\///\_|_/\\\///\_|_/\\\///\_|_ </span>
+
+  </div>
+</div>
+
+<!-- Second Parallax Image with projects Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-light-grey w3-wide">PROJECTS</span>
+  </div>
+</div>
+
+<!-- Container (projects Section) -->
+<div class="w3-content w3-container w3-padding-64" id="projects">
+
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+
+
+  <div class="w3-row-padding w3-center w3-section">
+
+    <div class="w3-col m3">
+      <a href="info_bookDIGITOFAGIA.pdf"><img src="imgs/digitofagia_book.jpg" style="width:100%" class="w3-hover-opacity" alt="2005-2008_NETCULTURA 1.0: DIGITOFAGIA"></a>
+    </div>
+
+
+    <div class="w3-col m3">
+      <a href="info_Autolabs.pdf"><img src="imgs/autolabs_project.jpg" style="width:100%"  class="w3-hover-opacity" alt="<b>2004_Autolabs"></a>
+    </div>
+
+
+    <div class="w3-col m3">
+      <a href="info_Digitofagia.pdf"><img src="imgs/festival_digitofagia.jpg" style="width:100%" class="w3-hover-opacity" alt="2004_Festival Digitofagia"></a>
+    </div>
+
+
+    <div class="w3-col m3">
+      <a href="info_MTBLab.pdf"><img src="imgs/festival_MTB.jpg" style="width:100%" class="w3-hover-opacity" alt="2003_Festival Mídia Tática Brasil"></a>
+    </div>
+
+
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+
+    <div class="w3-col m3">
+      <a href="http://aparelho.comumlab.org" target="blank"><img src="imgs/redeaparelho.jpg" style="width:100%" class="w3-hover-opacity" alt="2006_rede [aparelho]-: Amazônia-PA"></a>
+    </div>
+
+
+    <div class="w3-col m3">
+      <a href="http://comumlab.org/artemov2010/Artemov_CatalogoBelem2010.pdf" target="blank"><img src="imgs/festival_artemov.jpg" style="width:100%"  class="w3-hover-opacity" alt="<b>2010_Arte.mov Festival (Amazônia-PA)"></a>
+    </div>
+
+
+    <div class="w3-col m3">
+      <a href="http://comumlab.org/info_Dossie.pdf" target="blank"><img src="imgs/dossie_book.jpg" style="width:100%" class="w3-hover-opacity" alt="2011_2012 Dossie: Por uma cartografia crítica da Amazônia"></a>
+    </div>
+
+
+    <div class="w3-col m3">
+      <a href="http://dossie.comumlab.org/remixtexturas/index.html" target="blank"><img src="imgs/remixtexturas.png" style="width:100%" class="w3-hover-opacity" alt="Remixtexturas"></a>
+    </div>
+
+    </div>
+
+
+
+  </div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-closebtn w3-text-white w3-opacity w3-hover-opacity-off w3-xxlarge w3-container w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with projects Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+
+     <span class="w3-xxlarge w3-text-light-grey w3-wide">
+       <div class="w3-xlarge w3-section">
+
+         <a href="https://twitter.com/gizz7" target="blank"><i class="fa fa-twitter w3-hover-text-light-blue"></i></a>
+         <a href="https://vimeo.com/giseli" target="blank"><i class="fa fa-vimeo w3-hover-text-purple"></i></a>
+          <a href="http://america.comumlab.org" target="blank"><i class="fa fa-wordpress w3-hover-text-indigo"></i></a>
+       </div>
+
+     </span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">GISELI VASCONCELOS</h3>
+<div class="w3-text-black">
+  <p align="center"> Sou artista, web developer e pesquisadora independente. Mestra pelo Programa de Pós-Graduação em Estudos Contemporâneos da Arte, na linha de pesquisa Estudos dos Processos Artísticos na UFF/RJ. Bacharel em Artes Plásticas pela Unesp/SP.
+  </div>
+  <p align="center">  I’m an artist, web developer and independent researcher. Master's degree in the Graduate Program in Contemporary Art Studies, in the research line Studies of Artistic Processes at the Fluminense Federal University - UFF/RJ.  Bachelor of Fine Arts from UNESP - Universidade Estadual Paulista "Julio de Mesquita Filho", Institute of Arts. São Paulo, SP. </p>
+
+  <p class="w3-center"> RJ, Brasil - NYC, USA <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>  Email: <a href="mailto:comumlab@gmail.com">comumlab@gmail.com </a><i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> </p>
+
+
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-btn w3-padding w3-light-grey w3-hover-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+
+  <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+<!-- Add Google Maps -->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-navbar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+</body>
+</html>
